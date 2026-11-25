@@ -6,13 +6,12 @@ import torch.nn as nn
 
 
 class SelfAttention(nn.Module):
-    """Implements a single-head self-attention layer."""
 
     def __init__(self, embed_dim: int):
-        # Initialize the parent PyTorch nn.Module class
+        # Initialize the  PyTorch nn.Module class
         super().__init__()
 
-        # Store the dimensionality of the input and output embeddings
+        # this line will Store the dimensionality of the input and output embeddings
         self.embed_dim = embed_dim
 
         # Linear projection layers to transform input tokens into Queries, Keys, and Values
