@@ -1,0 +1,18 @@
+TRANSFORMER:
+
+
+FEW CONCEPTS THAT I HAVE LEARNED, WHICH WERE NEW TO ME
+
+1- Before transformer , models like RNN used to process in sequence, with required alot of computation.
+2- The concept of transformers was to:
+
+It allows every word to look at every other word in 
+the sentence to figure out context. For example, in 
+"The animal didn't cross the street because it was too tired,"
+ self-attention helps the model link "it" to "animal" rather than
+  "street."
+
+ So Words are turned into numbers with their positions attached.
+ Words share context with each other in parallel.
+ The model processes this combined context to make predictions.
+ Output: The model predicts the next most likely word.
